@@ -5,6 +5,8 @@ export default {
     colors: {
       whitesmoke: "#f5f5f5",
       jet: "#2e2f2f",
+      coral: "#fe6e6f",
+      overlay: "rgba(0,0,0,0.4)",
     },
     extend: {},
   },
