@@ -1,0 +1,84 @@
+.bg-primary {
+  background-color: #f8a95a; /* เปลี่ยนเป็นสีฟ้า */
+}
+
+.bg-secondary {
+  background-color: #000000; /* เปลี่ยนเป็นสีเขียว */
+}
+
+.text-primary {
+  color: #0062cc;
+}
+
+.text-secondary {
+  color: #91ff00;
+}
+
+button {
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+#message-container {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.chat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  position: relative;
+}
+
+.edit-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.chat-item:hover .delete-icon {
+  opacity: 1;
+}
+
+/* เพิ่มลงในไฟล์ HomePage_styles.css */
+.chat-item {
+  position: relative;
+}
+
+.chat-item .icon-buttons {
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.chat-item:hover .icon-buttons {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+
+

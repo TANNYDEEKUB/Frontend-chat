@@ -1,0 +1,9 @@
+.nav-link {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+  }
+  
+  .nav-link:hover {
+    border-color: #FF6F61; /* coral */
+  }
+  

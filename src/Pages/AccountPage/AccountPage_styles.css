@@ -1,0 +1,89 @@
+/* src/Pages/AccountPage/AccountPage_styles.css */
+
+.account-page {
+    display: flex;
+    min-height: 100vh;
+    background-color: #fff6e1; /* Background color for the whole page */
+    padding-top: 60px; /* Add padding to account for fixed navbar */
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #d29d49; /* Matching the sidebar color */
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    cursor: pointer;
+  }
+  
+  .content {
+    flex: 1;
+    background-color: #fff6e1; /* Matching the content background color */
+    padding: 20px;
+    margin-left: 20px; /* Adds space between sidebar and content */
+    border-radius: 8px; /* Optional: Adds rounded corners to the content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow for better separation */
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .help-item {
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #fff6e1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .help-item:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .help-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
